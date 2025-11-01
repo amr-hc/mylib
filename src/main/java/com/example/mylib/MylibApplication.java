@@ -8,14 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MylibApplication {
 	private static final Logger log = LoggerFactory.getLogger(MylibApplication.class);
 
-    public void printHi() {
-        class LocalPrinter {
-            void say() {
-                log.info("hi");
-            }
-        }
-        LocalPrinter p = new LocalPrinter();
-        p.say();
+    public void printHix() {
+        log.info("hi");
     }
 
 }

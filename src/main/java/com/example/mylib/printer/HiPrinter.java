@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 public class HiPrinter {
     private static final Logger log = LoggerFactory.getLogger(HiPrinter.class);
 
-    public void printHi() {
+    public void printHix() {
         log.info("hi");
     }
 }

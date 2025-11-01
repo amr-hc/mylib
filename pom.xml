@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>mylib</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.3.0</version>
 	<name>mylib</name>
 	<description>mylib project for Spring Boot</description>
 	<url/>
@@ -88,4 +88,11 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/amr-hc/mylib</url>
+		</repository>
+	</distributionManagement>
 </project>
